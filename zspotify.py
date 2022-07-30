@@ -29,8 +29,8 @@ sanitize = ["\\", "/", ":", "*", "?", "'", "<", ">", '"']
 
 
 CONFIG_DIR = user_config_dir("ZSpotify")
-ROOT_PATH = os.path.expanduser("~/Music/ZSpotify Music/")
-ROOT_PODCAST_PATH = os.path.expanduser("~/Music/ZSpotify Podcasts/")
+ROOT_PATH = os.path.expanduser("B:/Music/ZSpotify Music/")
+ROOT_PODCAST_PATH = os.path.expanduser("B:/Music/ZSpotify Podcasts/")
 
 SKIP_EXISTING_FILES = True
 MUSIC_FORMAT = os.getenv('MUSIC_FORMAT') or "mp3" # "mp3" | "ogg"
